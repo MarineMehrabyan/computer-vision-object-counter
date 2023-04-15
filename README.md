@@ -7,10 +7,10 @@ ____Dependencies____
 
 ____Usage____
 1. Install the required dependencies using pip
-_pip install opencv-python numpy
+_pip install opencv-python numpy_
 2. Save your input images in a folder and set the image path in the count_objects() function.
 3. Run the script
-    _python3 count_objects.py
+    _python3 count_objects.py_
 4.The script will display the result and print the number of objects in each image.
 
 
@@ -35,4 +35,4 @@ Print the number of objects found in the image using the len() function on the c
 Wait for user input and close the window using the cv2.waitKey() and cv2.destroyAllWindows() functions.
 
 
-_The algorithm uses the fact that objects have distinct edges to detect and count them in the image. The Canny edge detection algorithm is used to detect the edges, and the dilation operation is used to enhance the edges and connect any disconnected edges. The contours of the connected edges are then found and used to count the number of objects in the image.
+_The algorithm uses the fact that objects have distinct edges to detect and count them in the image. The Canny edge detection algorithm is used to detect the edges, and the dilation operation is used to enhance the edges and connect any disconnected edges. The contours of the connected edges are then found and used to count the number of objects in the image._
