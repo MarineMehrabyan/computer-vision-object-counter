@@ -10,7 +10,7 @@ ____Usage____
 _pip install opencv-python numpy_
 2. Save your input images in a folder and set the image path in the count_objects() function.
 3. Run the script
-    _python3 count_objects.py_
+_python3 count_objects.py_
 4.The script will display the result and print the number of objects in each image.
 
 
