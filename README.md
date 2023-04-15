@@ -6,15 +6,10 @@ ____Dependencies____
 2. NumPy
 
 ____Usage____
-Install the required dependencies using pip:
-    _pip install opencv-python numpy_
-
-Save your input images in a folder and set the image path in the count_objects() function.
-
-Run the script
-    _python3 count_objects.py_
-
-The script will display the result and print the number of objects in each image.
+1. Install the required dependencies using pip: pip install opencv-python numpy
+2. Save your input images in a folder and set the image path in the count_objects() function.
+3. Run the script:  python3 count_objects.py
+4. The script will display the result and print the number of objects in each image.
 
 
 ____Algorithm____
